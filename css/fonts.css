@@ -1,0 +1,34 @@
+@font-face {
+	font-family: "MyImpact";
+	src: url("../fonts/Impact.ttf");
+}
+
+@font-face {
+	font-family: "Greyfriars";
+	src: url("../fonts/DkGreyfriarsRegular.otf");
+}
+
+@font-face {
+	font-family: "Digital7";
+	src: url("../fonts/Digital7.ttf");
+}
+
+@font-face {
+	font-family: "Digital7 Italic";
+	src: url("../fonts/Digital7Italic.ttf");
+}
+
+@font-face {
+	font-family: "Digital7 Mono";
+	src: url("../fonts/Digital7Mono.ttf");
+}
+
+@font-face {
+	font-family: "Digital7 Monoitalic";
+	src: url("../fonts/Digital7Monoitalic.ttf");
+}
+
+@font-face {
+	font-family: "Xenotron";
+	src: url("../fonts/Xenotron.ttf");
+}

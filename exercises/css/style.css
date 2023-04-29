@@ -1,0 +1,37 @@
+.submit-btn,
+.submit-btn:active {
+	border-radius: 25px;
+  	background-color: #ff6666;
+  	border-color: #ff6666;
+  	color: #ffffff;
+  	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  	width: 200px;
+}
+
+.submit-btn:hover,
+.submit-btn:focus,
+.submit-btn.active {
+  	color: #ffffff;
+  	background-color: #ff0f0f;
+  	border-color: #ff0f0f;
+  	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+input#name,
+input#description,
+input#duration {
+	display: block;
+	width: 100%;
+}
+
+::placeholder {
+	text-align: center;
+}
+
+#exercise-submission {
+	background-color: white !important;
+	border-radius: 25px; 
+	padding: 25px; 
+	box-shadow: 5px 5px 10px grey;
+	opacity: 0.95;
+}
