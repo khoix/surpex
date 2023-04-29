@@ -4,6 +4,7 @@ FROM mysql:8.0
 # Set the required environment variables
 ENV MYSQL_ROOT_PASSWORD=pneumatic81*
 ENV MYSQL_DATABASE=se
+ENV MYSQL_USER=mysql
 ENV MYSQL_PASSWORD=pneumatic81*
 ENV MYSQL_ALLOW_EMPTY_PASSWORD=yes
 

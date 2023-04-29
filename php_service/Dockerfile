@@ -2,7 +2,13 @@
 FROM php:7.4-apache
 
 # Enable PHP extensions
-RUN docker-php-ext-install pdo pdo_mysql
+RUN docker-php-ext-install pdo pdo_mysql mysqli && \ 
+	docker-php-ext-enable mysqli && \
+    echo "extension=mysqli" > /usr/local/etc/php/conf.d/docker-php-ext-mysqli.ini
+
+# Add the following lines
+COPY ./php.ini /usr/local/etc/php/
+RUN cat /usr/local/etc/php/php.ini
 
 # Set the working directory
 WORKDIR /var/www/html

@@ -8,6 +8,8 @@ services:
       - "8080:8080"
     volumes:
       - ./php_service:/var/www/html
+    depends_on:
+      - mysql_service
 
   mysql_service:
     build: ./mysql_service
