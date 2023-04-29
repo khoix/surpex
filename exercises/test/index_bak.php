@@ -54,7 +54,7 @@
 						    <tbody>
 								<?php
 									$username="root";
-									$password="Pneumatic81&";
+									$password="pneumatic81*";
 									$database="se";
 
 									$se = mysqli_connect(localhost,$username,$password,$database);

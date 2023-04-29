@@ -1,0 +1,88 @@
+.submit-btn,
+.submit-btn:active {
+	border-radius: 25px;
+  	background-color: #ff6666;
+  	border-color: #ff6666;
+  	color: #ffffff;
+  	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  	width: 200px;
+}
+
+.submit-btn:hover,
+.submit-btn:focus,
+.submit-btn.active {
+  	color: #ffffff;
+  	background-color: #ff0f0f;
+  	border-color: #ff0f0f;
+  	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hiddenCol {
+	display: none;
+}
+
+input {
+	display: block;
+	width: 100%;
+	overflow: auto;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+td {
+	text-shadow: 1px 0px 2px lightgrey !important;
+}
+
+#exercise-submission {
+	background-color: white !important;
+	border-radius: 25px; 
+	padding: 25px; 
+	box-shadow: 5px 5px 10px grey;
+	opacity: 0.95;
+}
+
+#cat-name {
+	text-align: center;
+	width: 66%;
+}
+
+#cat-link {
+	text-align: center;
+	font-size: 10pt;
+}
+
+#cat-link:hover {
+	/*color:white;
+	text-shadow: 1px 0px 2px red !important;*/
+}
+
+#cat-container {
+	background-color: white; 
+	border-radius: 25px; 
+	padding: 25px; 
+	box-shadow: 5px 5px 5px grey; 
+	width: 95%;
+	position: relative;
+  	left: 50%;
+  	transform: translate(-50%, 0vh);
+}
+
+#catalog {
+	position: relative;
+  	left: 50%;
+  	transform: translate(-50%, 0vh);
+}
+
+.cat-icon,
+.cat-icon:active {
+	outline: none;
+	width: 30px;
+	height: 25px;
+}
+
+.cat-icon:hover {
+	width: 35px;
+	filter: drop-shadow(1px 1px 2px red);
+}

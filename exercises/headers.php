@@ -12,6 +12,7 @@
 <meta name="description" content="">
 
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="catalog/css/lity.css">
 <link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../assets/tether/tether.min.css">
 <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">

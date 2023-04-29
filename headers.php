@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="mobile-web-app-capable" content="yes" />
-<meta name="application-name" content="Surprice Exercise">
+<meta name="application-name" content="Surprise Exercise">
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="Surprise Exercise" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -13,6 +13,7 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">
 <link rel="stylesheet" href="assets/tether/tether.min.css">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">

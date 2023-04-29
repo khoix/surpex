@@ -35,11 +35,11 @@
 		        <div class="container">
 		            <div class="navbar-brand">
 		                <span class="navbar-logo">
-		                    <a href="http://se.khoix.net">
+		                    <a href="http://se.khoix.net:8080">
 		                        <img src="../assets/images/surprise-exercise-121x127.png" alt="Surprise Exercise" style="height: 3.8rem;">
 		                    </a>
 		                </span>
-		                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="http://se.khoix.net">Surprise Exercise</a></span>
+		                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="http://se.khoix.net:8080">Surprise Exercise</a></span>
 		            </div>
 		            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		                <div class="hamburger">
@@ -71,7 +71,7 @@
 						    <tbody>
 								<?php
 									$username="root";
-									$password="Pneumatic81&";
+									$password="pneumatic81*";
 									$database="se";
 
 									$se = mysqli_connect(localhost,$username,$password,$database);
