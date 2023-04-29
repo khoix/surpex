@@ -6,7 +6,7 @@
 			$password="pneumatic81*";
 			$database="se";
 
-			$se = mysqli_connect("mysql_service",$username,$password,$database);
+			$se = mysqli_connect("surpex_db",$username,$password,$database);
 
 			if (mysqli_connect_errno()) {
 				echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -52,3 +52,4 @@
 		<?php mysqli_close($se); ?>
 <!--	</div>
 </div>-->
+

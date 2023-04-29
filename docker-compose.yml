@@ -1,24 +1,25 @@
 version: "3.9"
 
 services:
-  php_service:
-    build: ./php_service
-    container_name: php_service
+  surpex:
+    build: ./surpex
+    container_name: surpex
     ports:
       - "8080:8080"
     volumes:
-      - ./php_service:/var/www/html
+      - ./surpex:/var/www/html
     depends_on:
-      - mysql_service
+      - surpex_db
 
-  mysql_service:
-    build: ./mysql_service
-    container_name: mysql_service
+  surpex_db:
+    build: ./surpex_db
+    container_name: surpex_db
     ports:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./mysql_service/se.sql:/docker-entrypoint-initdb.d/se.sql
+      - ./surpex_db/se.sql:/docker-entrypoint-initdb.d/se.sql
 
 volumes:
   mysql_data:
+
